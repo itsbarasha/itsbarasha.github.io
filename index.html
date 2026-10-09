@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barasha Baruah | Portfolio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #f7f9fc;
+    }
+    header {
+      background: linear-gradient(135deg, #111827, #2563eb);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 { font-size: 3rem; margin-bottom: 10px; }
+    header p { font-size: 1.15rem; opacity: 0.92; }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,.08);
+      text-align: center;
+      padding: 14px;
+    }
+    nav a {
+      color: #1f2937;
+      text-decoration: none;
+      margin: 0 14px;
+      font-weight: 600;
+    }
+    nav a:hover { color: #2563eb; }
+    .container {
+      width: min(1000px, 92%);
+      margin: auto;
+    }
+    section {
+      padding: 55px 0;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 28px;
+      color: #111827;
+      font-size: 2rem;
+    }
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 16px;
+      box-shadow: 0 8px 25px rgba(15,23,42,.08);
+      margin-bottom: 20px;
+    }
+    .about { text-align: center; }
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+    .info-grid .card h3 { color: #2563eb; margin-bottom: 8px; }
+    .contact a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    footer {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 22px;
+      padding: 12px 22px;
+      background: white;
+      color: #2563eb;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2.2rem; }
+      nav a { display: inline-block; margin: 5px 8px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Barasha Baruah</h1>
+    <p>Student at Dhemaji Engineering College (DEC)</p>
+    <a class="btn" href="#contact">Contact Me</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="card about">
+        <p>
+          Hello! I am Barasha Baruah, a Computer Science and Engineering
+          student at Dhemaji Engineering College. This portfolio presents
+          my academic background and contact information.
+        </p>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="info-grid">
+        <div class="card">
+          <h3>Dhemaji Engineering College (DEC)</h3>
+          <p><strong>Degree:</strong> Bachelor of Technology</p>
+          <p><strong>Branch:</strong> Computer Science and Engineering (CSE)</p>
+          <p><strong>Year:</strong> 2025</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="card contact">
+        <p><strong>Email:</strong>
+          <a href="mailto:barashaboruah158@gmail.com">barashaboruah158@gmail.com</a>
+        </p>
+        <p><strong>Location:</strong> Sivasagar, Assam, India</p>
+        <p><strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/barasha-baruah-a7627a435" target="_blank" rel="noopener">
+            LinkedIn Profile
+          </a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Barasha Baruah | GitHub Portfolio</p>
+  </footer>
+
+</body>
+</html>
